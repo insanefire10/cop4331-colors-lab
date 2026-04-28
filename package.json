@@ -11,12 +11,14 @@
     "lint:js": "eslint .",
     "lint:css": "stylelint **/*.css",
     "lint:html": "htmlhint **/*.html",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:html"
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
+    "test": "npx run jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "htmlhint": "^1.9.2"
+    "htmlhint": "^1.9.2",
+    "jest": "^30.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
